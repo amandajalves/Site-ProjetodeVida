@@ -36,6 +36,7 @@ function calculaTempo(tempoObjetivo){
     } else {
         return [0,0,0,0];
     }
+}
 
     function atualizaCronometro(){
         for (let i=0; i<contadores.length;i++){
@@ -52,5 +53,3 @@ function calculaTempo(tempoObjetivo){
     }
     
     comecaCronometro();
-
-}
